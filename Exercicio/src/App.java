@@ -33,7 +33,7 @@ public class App {
         cs.processContract(contract, n);
 
         System.out.println("Installments: ");
-        for (Installment i : contract.getInstallments()){
+        for (Installment i : contract.getInstallments()) {
             System.out.println(i.toString());
         }
 
